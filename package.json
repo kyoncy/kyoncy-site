@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "kyoncy.site",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "kyoncy's site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Nagao Kyota <kyota.n.2014@gmail.com>",
   "dependencies": {
     "gatsby": "^2.13.31",
     "gatsby-image": "^2.2.6",
@@ -38,7 +35,7 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/NagaoKyota/kyoncy.site.git#readme",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +43,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/NagaoKyota/kyoncy.site.git"
   },
   "scripts": {
     "build": "gatsby build",
