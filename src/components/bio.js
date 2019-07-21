@@ -57,11 +57,11 @@ const Bio = () => {
       <p>
         {author}が運営しています。
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
+        <a href={`https://twitter.com/${social.twitter}`} target={'_blank'}>
           Twitter
         </a>
         {`, `}
-        <a href={`https://facebook.com/${social.facebook}`}>
+        <a href={`https://facebook.com/${social.facebook}`} target={'_blank'}>
           Facebook
         </a>
         {` `}やってます

@@ -19,21 +19,32 @@ Github Pagesでブログ？サイト？の運用を開始した。
 `master`ブランチをpushしたのちに`yarn deploy`(中身は`gatsby build && gh-pages -d public -b master`)してみた。
 `origin/master`がbuildしたpublicディレクトリ以下の内容で上書きされてる感じ。
 
-機能開発は`develop`からブランチ切って進めて、`develop`から`master`に強制pushして、`yarn deploy`走らせると良いのかな。
-まだ`gh-pages`コマンドを走らせた時に何をしてるのかちゃんと分かってないなぁ。
+機能開発は`develop`からブランチ切って進めて、`develop`から`master`に強制pushして、`yarn deploy`走らせると良いのかな。まだ`gh-pages`コマンドを走らせた時に何をしてるのかちゃんと分かってないなぁ。
 
 この辺のことを調査して、運用方法も決めてかなきゃ。
 
 
 ## JSの知見まとめたいのでコードブロックを追加
+gatsby-remark-prismjsを使えば実現できる感じだったので、追加して設定した。
 
+```javascript
+(() => {
+  console.log('コードブロックを追加した');
+})();
+```
+
+ファイル名を追加するためのgatsby-remark-code-titlesもあるが、必要がなさそうなので設定しなかった。
+少しだけカスタマイズして感じたのは、色んなことがある程度手軽に実現できそうということ。
+
+カスタマイズとは違う点で、Github Pagesが厄介な感じがするのはどうにかしたい。
+Netlifyにデプロイしてみた、という記事もよく見かけたので移行も検討したい。
 
 
 ## Gatsbyでこんなカスタマイズがしたい
-Github使ってるなら`issue, Project`とかあるじゃんって話だが、振り返ったときに面白そうだなと思った。
+Github使ってるならissue, Projectとかあるじゃんって話だが、振り返ったときに面白そうだなと思った。
 
 - Profileページ入れたい
-  - Profileの記事を書いて`img`をクリック可能にするでも良い
+  - Profileの記事を書いて画像をクリックして飛ばす、でも良い
 - markdownからhtmlに変換した際にCSSが気持ち悪い
   - ちなみにこの`ul,li`の`margin-bottom`がとても大きかったのでCSSを追加した
   - コードブロックもカッチョいい感じにしたい

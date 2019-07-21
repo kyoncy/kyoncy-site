@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+import '../styles/code-block.css'
 
 import { rhythm, scale } from "../utils/typography"
 
