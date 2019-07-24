@@ -2,6 +2,7 @@
 title: GatsbyのGithub Pagesへのデプロイ時にmasterが書き換えられちゃう
 date: "2019-07-21"
 description: ブログをGatsbyに移行しGithub Pagesで運用開始。デプロイ時にmasterが書き換えられちゃう。エンジニアだからコードブロック追加できるようにしたい。Gatsbyのカスタマイズってこんな感じかなと模索する。
+tags: ["GatsbyJS", "Github Pages"]
 ---
 
 WordPressからGithub Pagesへの移行が無事に終わった。フォントは大好きなヒラギノにした。

@@ -2,6 +2,7 @@
 title: WordPressのカスタマイズが嫌になってGatsbyに移行する
 date: "2019-07-20"
 description: 新卒で働き始めてJSに触れてから感じていること。WordPressを触ってメンテナンスが面倒になったこと。WordPressからGatsbyに移行するにあたって構想を描いた。これからの意思表示。
+tags: ["WordPress", "GatsbyJS", "日記"]
 ---
 
 1年ほど前からWordPressでブログを書いていた(さほど更新はしていない)。
