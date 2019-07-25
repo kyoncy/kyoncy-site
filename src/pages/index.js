@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import kebabCase from "lodash/kebabCase"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
@@ -29,7 +30,16 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              {node.frontmatter.tags.map((tag) => {
+                return (
+                  <span>
+                    <a href={`/tags/${kebabCase(tag)}/`} style={{ padding: '2px 5px', backgroundColor: 'lightblue', borderRadius: '5px', textDecoration: 'none', color: 'black' }}>
+                      #{tag}
+                    </a>{' '}
+                  </span>
+                )
+              })}
+              <small>{node.frontmatter.date} </small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -38,9 +48,6 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-        <p>
-          <Link to="/tags">タグ一覧</Link>を表示する
-        </p>
       </Layout>
     )
   }
@@ -66,6 +73,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
           }
         }
       }
