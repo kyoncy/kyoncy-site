@@ -2,12 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `kyoncy.site`,
     author: `きょんしー`,
-    description: `思ってることを書くのみ。`,
+    description: `どっかのエンジニアの日々の開発、読書の感想、思ってる事を不定期にネットの端っこに溜め込むためのブログです`,
     siteUrl: `https://kyoncy.site`,
     social: {
       twitter: `kyoncy_site`,
       facebook: `kyota.nagao`,
     },
+    image: `https://user-images.githubusercontent.com/24786802/61989670-12370e80-b06e-11e9-8b4b-2cbedb88ded9.png`,
   },
   plugins: [
     {
@@ -73,7 +74,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,

@@ -61,8 +61,7 @@ const Bio = () => {
         <a href={`https://twitter.com/${social.twitter}`} target={'_blank'}>Twitter</a>
         {`, `}
         <a href={`https://facebook.com/${social.facebook}`} target={'_blank'}>Facebook</a>やってます。
-        新卒1年目のWEBエンジニアです。プログラミング教育に携わっています。
-        プロフィールは<a href={`https://www.wantedly.com/users/83876160`} target={'_blank'}>こちら</a>。
+        エンジニアです。ReactとGraphQLが好き。Official髭男dismと藤原さくらを聞いてます。デプロイのたびにプロフィールは更新します。他のことは<a href={`https://www.wantedly.com/users/83876160`} target={'_blank'}>こちら</a>。
       </p>
     </div>
   )
