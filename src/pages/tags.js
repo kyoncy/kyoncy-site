@@ -16,7 +16,7 @@ class TagsPage extends React.Component {
         <div>
           <Helmet title={title} />
           <div>
-            <h1>Tags</h1>
+            <h2>Tags</h2>
             <ul>
               {group.map(tag => (
                 <li key={tag.fieldValue}>

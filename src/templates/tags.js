@@ -14,7 +14,7 @@ class Tags extends React.Component {
       <Layout location={this.props.location} title={title}>
         <Bio />
         <div>
-          <h1>{tagHeader}</h1>
+          <h2>{tagHeader}</h2>
           <ul>
             {edges.map(({ node }) => {
               const { slug } = node.fields
