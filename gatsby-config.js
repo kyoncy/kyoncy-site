@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `kyoncy.site`,
+    title: `kyoncyの日記`,
     author: `きょんしー`,
     description: `どっかのエンジニアの日々の開発、読書の感想、思ってる事を不定期にネットの端っこに溜め込むためのブログです`,
     siteUrl: `https://kyoncy.site`,
@@ -35,7 +35,7 @@ module.exports = {
               classPrefix: `language-`,
               inlineCodeMarker: null,
               aliases: {},
-              showLineNumbers: true,
+              showLineNumbers: false,
               noInlineHighlight: false,
             },
           },

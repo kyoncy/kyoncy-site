@@ -34,7 +34,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h1
           style={{
             fontFamily: `Hiragino Kaku Gothic ProN, sans-serif`,
             marginTop: 0,
@@ -50,7 +50,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </h1>
       )
     }
     return (
@@ -60,7 +60,7 @@ class Layout extends React.Component {
           marginRight: `auto`,
           marginTop: '10px',
           marginBottom: '10px',
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(30),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           backgroundColor: 'whitesmoke',
           borderRadius: '30px',
@@ -69,9 +69,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org" target={`_blank`}>GatsbyJS</a>
+          © {new Date().getFullYear()} kyoncy
         </footer>
       </div>
     )
