@@ -61,7 +61,7 @@ class Layout extends React.Component {
           marginTop: '10px',
           marginBottom: '10px',
           maxWidth: rhythm(30),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          padding: `${rhythm(1.5)} ${rhythm(1.3)}`,
           backgroundColor: 'whitesmoke',
           borderRadius: '30px',
         }}
