@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import kebabCase from "lodash/kebabCase"
 import { rhythm } from "../utils/typography"
+import styles from '../styles/index.scss';
 
 class BlogIndex extends React.Component {
   render() {
@@ -30,8 +31,8 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <div style={{display: 'flex'}}>
-                <img width={'300px'} height={'auto'} src={require('../../content/assets/no_image.png')}></img>
+              <div className={styles.blogPost}>
+                <img src={require('../../content/assets/no_image.png')} alt=''></img>
                 <div>
                 {node.frontmatter.tags.map((tag) => {
                   return (
