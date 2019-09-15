@@ -6,4 +6,5 @@ tags: ["Blockly", "React", "Jest"]
 relativePath: tech-book-fest7.png
 ---
 
-同人誌を書きました。
+9月22日の技術書典に出すために技術系同人誌を書きました。
+サークルページは<a href="https://techbookfest.org/event/tbf07/circle/5653415447232512" target="_blank">こちら</a>です。
