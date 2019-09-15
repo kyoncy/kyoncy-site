@@ -11,7 +11,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title, image }) {
-  const { site } = useStaticQuery(
+  const { site, images } = useStaticQuery(
     graphql`
       query {
         site {
@@ -23,16 +23,6 @@ function SEO({ description, lang, meta, title, image }) {
             siteUrl
           }
         }
-      }
-    `
-  )
-
-  const metaDescription = description || site.siteMetadata.description
-  const metaImage = image || site.siteMetadata.image
-
-  const { images } = useStaticQuery(
-    graphql`
-      query {
         images: allFile {
           edges {
             node {
@@ -48,7 +38,11 @@ function SEO({ description, lang, meta, title, image }) {
         }
       }
     `
-  );
+  )
+
+  const metaDescription = description || site.siteMetadata.description
+  const metaImage = image || site.siteMetadata.image
+
   const fileName = images.edges.find(n => {
     return n.node.relativePath.includes(metaImage)
   })
