@@ -34,7 +34,7 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <div className={styles.blogPost}>
-                <Image filename={node.frontmatter.relativePath} />
+                <Image filename={node.frontmatter.relativePath || 'ogp.png'} />
                 <div>
                 {node.frontmatter.tags.map((tag) => {
                   return (
