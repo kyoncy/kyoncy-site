@@ -4,8 +4,11 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Image from '../components/Image'
+
 import kebabCase from "lodash/kebabCase"
 import { rhythm } from "../utils/typography"
+import styles from '../styles/index.scss';
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,7 +18,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="記事の一覧" />
+        <SEO title="記事の一覧" image={'ogp.png'} />
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -30,21 +33,26 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              {node.frontmatter.tags.map((tag) => {
-                return (
-                  <span>
-                    <a href={`/tags/${kebabCase(tag)}/`} style={{ padding: '2px 5px', backgroundColor: 'lightblue', borderRadius: '5px', textDecoration: 'none', color: 'black' }}>
-                      #{tag}
-                    </a>{' '}
-                  </span>
-                )
-              })}
-              <small>{node.frontmatter.date} </small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
+              <div className={styles.blogPost}>
+                <Image filename={node.frontmatter.relativePath || 'ogp.png'} />
+                <div>
+                {node.frontmatter.tags.map((tag) => {
+                  return (
+                    <span>
+                      <a href={`/tags/${kebabCase(tag)}/`} style={{ padding: '2px 5px', backgroundColor: 'lightblue', borderRadius: '5px', textDecoration: 'none', color: 'black' }}>
+                        #{tag}
+                      </a>{' '}
+                    </span>
+                  )
+                })}
+                <small>{node.frontmatter.date} </small>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+                </div>
+              </div>
             </div>
           )
         })}
@@ -74,6 +82,7 @@ export const pageQuery = graphql`
             title
             description
             tags
+            relativePath
           }
         }
       }

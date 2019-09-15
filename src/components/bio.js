@@ -61,7 +61,7 @@ const Bio = () => {
         <a href={`https://twitter.com/${social.twitter}`} target={'_blank'}>Twitter</a>
         {`, `}
         <a href={`https://facebook.com/${social.facebook}`} target={'_blank'}>Facebook</a>
-        は適当に。React, Blockly, Pythonが好き。普段はNightcoreを聞きながら仕事。土日はReact開発したり、技術書や啓発本やキャリアの本とか読んでます。開発することに飢えてて、ブログ書くよりレイアウト変えてる。経歴とかは<a href={`https://www.wantedly.com/users/83876160`} target={'_blank'}>Wantedly</a>に記載。
+        は適当に。React, Blockly, Pythonが好き。Typescriptがっつり書きたいので機会模索中。普段はNightcoreを聞きながら仕事。土日はReact開発したり、技術書や啓発本やキャリアの本とか読んでます。開発することに飢えてて、ブログ書くよりレイアウト変えてる。経歴とかは<a href={`https://www.wantedly.com/users/83876160`} target={'_blank'}>Wantedly</a>に記載。
       </p>
     </div>
   )
