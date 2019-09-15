@@ -17,6 +17,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          image={post.frontmatter.relativePath || 'ogp.png'}
         />
         <h1
           style={{
@@ -91,6 +92,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        relativePath
       }
     }
   }

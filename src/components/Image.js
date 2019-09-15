@@ -11,7 +11,7 @@ export default ({ filename }) => (
               relativePath
               name
               childImageSharp {
-                sizes(maxWidth: 300) {
+                sizes(maxWidth: 1200) {
                   ...GatsbyImageSharpSizes
                 }
               }
