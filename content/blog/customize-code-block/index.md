@@ -3,6 +3,7 @@ title: コードブロックのCSSを変えたのでコードを書く
 date: "2019-08-09"
 description: 全体的にgatsby-starter-blogのCSSデザインが気に食わなかった(なぜ自分は最初にこれを選んだんだろうと思っている)のでワシャっとCSS周りをいじった。特にコードブロック。
 tags: ["GatsbyJS", "CSS"]
+relativePath: no_image.png
 ---
 
 - JSXはこうなる

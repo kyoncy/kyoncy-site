@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Image from '../components/Image'
+
 import kebabCase from "lodash/kebabCase"
 import { rhythm } from "../utils/typography"
 import styles from '../styles/index.scss';
@@ -32,7 +34,7 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <div className={styles.blogPost}>
-                <img src={require('../../content/assets/no_image.png')} alt=''></img>
+                <Image filename={node.frontmatter.relativePath} />
                 <div>
                 {node.frontmatter.tags.map((tag) => {
                   return (
@@ -80,6 +82,7 @@ export const pageQuery = graphql`
             title
             description
             tags
+            relativePath
           }
         }
       }
