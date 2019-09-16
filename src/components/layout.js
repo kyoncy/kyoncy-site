@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 import '../styles/code-block.css'
+import styles from '../styles/layout.scss'
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -55,16 +56,7 @@ class Layout extends React.Component {
     }
     return (
       <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          marginTop: '10px',
-          marginBottom: '10px',
-          maxWidth: rhythm(30),
-          padding: `${rhythm(1.5)} ${rhythm(1.3)}`,
-          backgroundColor: 'whitesmoke',
-          borderRadius: '30px',
-        }}
+        className={styles.main}
       >
         <header>{header}</header>
         <main>{children}</main>
