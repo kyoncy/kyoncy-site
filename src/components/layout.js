@@ -61,7 +61,13 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} kyoncy
+          <div>
+            <h4 style={{ paddingTop: '10px', marginBottom: '10px' }}>Githubの草情報</h4>
+            <img src="https://grass-graph.moshimo.works/images/NagaoKyota.png?background=none"></img>
+          </div>
+          <div>
+            © {new Date().getFullYear()} kyoncy
+          </div>
         </footer>
       </div>
     )
