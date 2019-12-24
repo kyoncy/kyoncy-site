@@ -1,7 +1,7 @@
 ---
 title: WordPress😂 → Gatsby(Github Pages😭) → Gatsby(Netlify😃)
 date: "2019-12-23"
-description: Github Pagesを辞めてNetlifyで運用しております。って話
+description: Github Pagesを辞めてNetlifyで運用しておりますという話。Qiitaから丸々転載してきた怠惰な記事。TOP3で使用している顔文字を使いたかっただけかも。
 tags: ["GatsbyJS", "Github Pages", "Netlify"]
 relativePath: good-bye_github-pages.png
 ---
