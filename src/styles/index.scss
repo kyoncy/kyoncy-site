@@ -40,5 +40,16 @@ $breakpoint-down: (
       margin-right: 10px;
     }
   }
+}
 
+.tag {
+  padding: 2px 5px;
+  background-color: lightblue;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.tag:hover {
+  background-color: lightskyblue;
 }

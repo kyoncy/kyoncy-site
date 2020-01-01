@@ -6,6 +6,7 @@
   "author": "Nagao Kyota <kyota.n.2014@gmail.com>",
   "dependencies": {
     "gatsby": "^2.13.31",
+    "gatsby-awesome-pagination": "^0.3.5",
     "gatsby-image": "^2.2.6",
     "gatsby-plugin-feed": "^2.3.4",
     "gatsby-plugin-google-analytics": "^2.1.4",

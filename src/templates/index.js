@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from '../components/Image'
+import Pagination from "../components/Pagination"
 
 import kebabCase from "lodash/kebabCase"
 import { rhythm } from "../utils/typography"
@@ -36,10 +37,10 @@ class BlogIndex extends React.Component {
               <div className={styles.blogPost}>
                 <Image filename={node.frontmatter.relativePath || 'ogp.png'} />
                 <div>
-                {node.frontmatter.tags.map((tag) => {
+                {node.frontmatter.tags.map((tag, index) => {
                   return (
-                    <span>
-                      <a href={`/tags/${kebabCase(tag)}/`} style={{ padding: '2px 5px', backgroundColor: 'lightblue', borderRadius: '5px', textDecoration: 'none', color: 'black' }}>
+                    <span key={index}>
+                      <a href={`/tags/${kebabCase(tag)}/`} className={styles.tag}>
                         #{tag}
                       </a>{' '}
                     </span>
@@ -56,6 +57,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <Pagination props={this.props} />
       </Layout>
     )
   }
@@ -64,13 +66,17 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
+  query($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      skip: $skip
+      limit: $limit
+    ) {
       edges {
         node {
           excerpt
