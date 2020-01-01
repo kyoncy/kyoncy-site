@@ -40,7 +40,7 @@ class BlogIndex extends React.Component {
                 {node.frontmatter.tags.map((tag, index) => {
                   return (
                     <span key={index}>
-                      <a href={`/tags/${kebabCase(tag)}/`} style={{ padding: '2px 5px', backgroundColor: 'lightblue', borderRadius: '5px', textDecoration: 'none', color: 'black' }}>
+                      <a href={`/tags/${kebabCase(tag)}/`} className={styles.tag}>
                         #{tag}
                       </a>{' '}
                     </span>
@@ -66,13 +66,17 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
+  query($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      skip: $skip
+      limit: $limit
+    ) {
       edges {
         node {
           excerpt

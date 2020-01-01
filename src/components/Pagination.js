@@ -5,8 +5,6 @@ import styles from '../styles/pagination.scss'
 const Pagination = ({ props }) => {
 	const { previousPagePath, nextPagePath } = props.pageContext;
 
-	console.log(props);
-
 	return (
 		<div className={styles.pagination}>
 			{previousPagePath ? <Link to={previousPagePath} className={styles.link}>← 前のページへ</Link> : null }
