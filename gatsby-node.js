@@ -7,14 +7,14 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const buildPagination = posts => {
-		paginate({
-			createPage,
-			items: posts,
-			itemsPerPage: 6,
-			pathPrefix: ({ pageNumber }) => (pageNumber === 0 ? "/" : "/page"),
-			component: path.resolve('src/templates/index.js')
-		})
-	}
+    paginate({
+      createPage,
+      items: posts,
+      itemsPerPage: 6,
+      pathPrefix: ({ pageNumber }) => (pageNumber === 0 ? "/" : "/page"),
+      component: path.resolve('src/templates/index.js')
+    })
+  }
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   let result = await graphql(
