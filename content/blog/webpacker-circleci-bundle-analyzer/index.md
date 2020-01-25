@@ -10,11 +10,10 @@ relativePath: webpacker-circleci-bundle-analyzer.png
 
 Webpacker使ってるアプリケーションに webpack-bundle-analyzer を導入してCircleCIでつまづいた話です。
 
-そもそもなぜ webpack-bundle-analyzer を導入しようと思ったのかは
+なぜ webpack-bundle-analyzer を導入しようと思ったのかは
 [mizchiさんのQiitaの記事](https://qiita.com/mizchi/items/af17f45d5653b76f6751) を通勤中に読んでて、lodash 使いまくってる気がするなぁと感じたからです。
 
-おっ、[webpack-bundle-analyzerのissue](https://github.com/webpack-contrib/webpack-bundle-analyzer/issues/311#issue-494745779) にそれらしきものがあるぞ。
-しめしめ試してみよう。
+おっ、[webpack-bundle-analyzerのissue](https://github.com/webpack-contrib/webpack-bundle-analyzer/issues/311#issue-494745779) にそれらしきものがあるぞ。試してみよう。
 
 ![](https://i.imgur.com/V1zkhn4.png)
 

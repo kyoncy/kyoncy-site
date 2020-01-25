@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "preset-japanese": true,
+    "preset-ja-technical-writing": true,
+    "ja-technical-writing/ja-no-mixed-period": false,
+    "ja-technical-writing/no-exclamation-question-mark": false
+  }
+}

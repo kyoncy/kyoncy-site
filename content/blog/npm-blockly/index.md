@@ -50,13 +50,13 @@ Blockly.JavaScript['hoge'] = (block) => {
 - Blocklyのrelease後に`node-blockly`の更新を待たなければならない
 - あくまで`node-blockly`は公式で公開されているものではない
 
-ので、信頼できるソースになったかと思います。
+ので、信頼できるソースになったかな...
 
 ## Blocklyを使った開発をしたい方への朗報
 
 [blocly-samples](https://github.com/google/blockly-samples)というリポジトリが公開されました。
 
-ReactやVue, Angular, Node.js等での開発の始め方の指針となるため、Blockly開発を始めてみたい方は参考にしていただけたらと思います。
+ReactやVue, Angular, Node.js等での開発の始め方の指針となるため、Blockly開発を始めてみたい方は参考にしてください。
 
 
 ## TypeScriptに対応
@@ -65,7 +65,7 @@ npmのパッケージ公開の際、同時にTypeScript(以下、TS)にも対応
 
 [DefinitlyTyped](https://definitelytyped.org/)内に`@types/blockly`の形式で公開されているわけではないのですが、[Blocklyの型定義ファイル](https://github.com/google/blockly/tree/master/typings)がリポジトリ内に入ってます。
 
-TSに対応はしましたが、まだ重要な機能であるブロックをJavaScriptやPythonに変換するモジュールの型定義はされていないので型定義ファイルの作成に協力するか、作られるのを待つ形になるかと思います。
+TSに対応しましたが、まだブロックをJavaScriptやPythonに変換するモジュールの型定義はされていないので型定義ファイルの作成に協力するか、作られるのを待つ形になります。
 
 まだ、みんなのコードのプロダクト[プログル](https://proguru.jp)ではTSを用いていないのですが
 BlocklyがTSに部分対応したということで、次のプロダクトではTSを用いる方向で検討しています。
