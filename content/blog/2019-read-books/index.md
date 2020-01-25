@@ -95,7 +95,7 @@ Think clearly
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2VgtpZ4" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2VgtpZ4&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small&omit_script=1"></a></div></div>
 
-ハイパフォーマンス ブラウザネットワーキング
+ハイパフォーマンス　ブラウザネットワーキング
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2Qi5Qgj" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2Qi5Qgj&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
@@ -119,10 +119,10 @@ Think clearly
 ## まとめ
 
 振り返ると、オライリーあまり読んでないなぁと反省。
-積読の棚に5冊くらい控えてるので冬休みと2020年の前半は技術書寄りにしようかと思います。
+積読の棚に5冊くらい控えてるので冬休みと2020年の前半は技術書寄りにします。
 
 職場の中で正社員として働くエンジニアが自分とCTOの2人です。(パートタイムで働いてくださってる方もいます)
-ですが、アジャイル開発やEMに興味を持ったので、書店で必ず並んでいる本を早い段階で読めたのは良かったと思います。
+ですが、アジャイル開発やEMに興味を持ったので、書店で必ず並んでいる本を早い段階で読めたのは良かったです。
 
 2019年はBlocklyの本を書いたりもしたので、2020年はもっと技術書を読んでアウトプットしていきたい。
-フロントエンドばかりの9ヶ月でしたが、バックエンド(今のところ Rails)も書いていくことになるので楽しみ！
+フロントエンドばかりの9ヶ月でしたが、バックエンド(今のところ Rails)も書くことになるので楽しみです。

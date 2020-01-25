@@ -10,7 +10,7 @@ Gatsbyを触ってみて、こんなカスタマイズがしたいなぁとい�
 
 
 ## GatsbyをGithub Pagesで運用開始
-Github Pagesでブログ？サイト？の運用を開始した。
+Github Pagesでブログの運用を開始した。
 独自ドメインの設定も無事に完了したのでひとまずOK。
 
 
@@ -60,4 +60,4 @@ Github使ってるならissue, Projectとかあるじゃんって話だが、振
   - [Starter Library](https://www.gatsbyjs.org/starters/?v=2)に色んなのあるけど自分でカスタマイズする
 
 洗い出してみると楽しみになってきた。
-変にカスタマイズがだいぶされてるLibrary選ばなくて正解だったかも。これから実証していくことになる。
+変にカスタマイズがだいぶされてるLibrary選ばなくて正解でしたかね。
