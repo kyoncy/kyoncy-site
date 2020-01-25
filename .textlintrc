@@ -1,5 +1,6 @@
 {
   "rules": {
-    "preset-japanese": true
+    "preset-japanese": true,
+    "japanese/no-doubled-joshi": false
   }
 }

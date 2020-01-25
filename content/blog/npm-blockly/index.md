@@ -65,7 +65,7 @@ npmのパッケージ公開の際、同時にTypeScript(以下、TS)にも対応
 
 [DefinitlyTyped](https://definitelytyped.org/)内に`@types/blockly`の形式で公開されているわけではないのですが、[Blocklyの型定義ファイル](https://github.com/google/blockly/tree/master/typings)がリポジトリ内に入ってます。
 
-TSに対応はしましたが、まだ重要な機能であるブロックをJavaScriptやPythonに変換するモジュールの型定義はされていないので型定義ファイルの作成に協力するか、作られるのを待つ形になるかと思います。
+TSに対応しましたが、まだブロックをJavaScriptやPythonに変換するモジュールの型定義はされていないので型定義ファイルの作成に協力するか、作られるのを待つ形になるかと思います。
 
 まだ、みんなのコードのプロダクト[プログル](https://proguru.jp)ではTSを用いていないのですが
 BlocklyがTSに部分対応したということで、次のプロダクトではTSを用いる方向で検討しています。
