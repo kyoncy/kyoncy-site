@@ -28,7 +28,7 @@ export default ({ filename }) => (
       if (!image) return
       
       const imageSizes = image.node.childImageSharp.sizes
-      return <img src={imageSizes.src} alt=''></img>
+      return <img src={imageSizes.src} style={{ borderRadius: "10px" }} alt=''></img>
     }}
   />
 )
