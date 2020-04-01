@@ -57,11 +57,12 @@ const Bio = () => {
         />
       </Link>
       <p>
-        新卒1年目の {author}🐧 です。<a href={`https://code.or.jp`} target={'_blank'}>みんなのコード</a>で働いてます。
+        社会人2年目の {author}🐧です。<a href={`https://code.or.jp`} target={'_blank'}>みんなのコード</a> で働いてます。
         <a href={`https://twitter.com/${social.twitter}`} target={'_blank'}>Twitter</a>
         {`, `}
         <a href={`https://facebook.com/${social.facebook}`} target={'_blank'}>Facebook</a>
-        やってます。React, Blockly, Renovate, CircleCIが好き。Typescriptがっつり書きたいので機会模索中。土日は開発したり本を読んでます。開発したすぎてブログ書くよりレイアウト変えてる。経歴とかは<a href={`https://www.wantedly.com/users/83876160`} target={'_blank'}>Wantedly</a>に記載してます。
+        やってます。React, TypeScript 書いてます。土日は個人開発したり読書してます。
+        経歴は <a href={`https://www.wantedly.com/users/83876160`} target={'_blank'}>Wantedly</a> に記載してます。
       </p>
     </div>
   )
