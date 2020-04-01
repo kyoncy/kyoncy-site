@@ -11,6 +11,7 @@ module.exports = {
     image: `https://user-images.githubusercontent.com/24786802/61989670-12370e80-b06e-11e9-8b4b-2cbedb88ded9.png`,
   },
   plugins: [
+    `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
