@@ -25,6 +25,11 @@
   float: left; /* 1 */
   min-width: 100%; /* 2 */
 }
+
 .gatsby-highlight pre[class*="language-"].line-numbers {
   padding-left: 2.8em; /* 3 */
+}
+
+.gatsby-highlight code[class*="language-"] {
+  color: #a1adb1;
 }
