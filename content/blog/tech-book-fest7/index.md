@@ -12,7 +12,7 @@ relativePath: tech-book-fest7.png
 最近はBlocklyばっかり触って理解が進んできた。
 Blocklyのブロックがシンプルだったので、近頃のリッチな感じとマッチしにくいなぁと思ってた。
 そこで、coreをいじったりしてみた。
-forkしていじってみたプルリク→https://github.com/NagaoKyota/node-blockly/pull/1
+forkしていじってみたプルリク→https://github.com/kyoncy/node-blockly/pull/1
 
 Blocklyのブロックはこんな感じ。
 
