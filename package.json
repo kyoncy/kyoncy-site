@@ -43,7 +43,7 @@
   "devDependencies": {
     "prettier": "1.18.2"
   },
-  "homepage": "https://github.com/NagaoKyota/kyoncy.site.git#readme",
+  "homepage": "https://github.com/kyoncy/kyoncy.site.git#readme",
   "keywords": [
     "gatsby"
   ],
@@ -51,7 +51,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NagaoKyota/kyoncy.site.git"
+    "url": "git+https://github.com/kyoncy/kyoncy.site.git"
   },
   "scripts": {
     "build": "gatsby build",
