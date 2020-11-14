@@ -6,41 +6,37 @@ tags: ["GatsbyJS", "CSS"]
 relativePath: customize-code-block.png
 ---
 
-- JSXはこうなる
+- JSX はこうなる
   - 悪くないと思ってるが、人によっては見にくいかも
 
 ```jsx
-import React, { Component } from 'react';
+import React, { Component } from "react"
 
 class App extends Component {
   render() {
-    return (
-      <h1>Hello world</h1>
-    );
+    return <h1>Hello world</h1>
   }
 }
 
-export default App;
+export default App
 ```
 
-- ちなみに上のコードがJSだと以下
+- ちなみに上のコードが JS だと以下
   - そりゃそうだよな
 
 ```js
-import React, { Component } from 'react';
+import React, { Component } from "react"
 
 class App extends Component {
   render() {
-    return (
-      <h1>Hello world</h1>
-    );
+    return <h1>Hello world</h1>
   }
 }
 
-export default App;
+export default App
 ```
 
-- 好きだからPython
+- 好きだから Python
 
 ```python
 print('Hello, World!')

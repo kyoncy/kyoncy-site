@@ -6,19 +6,19 @@ tags: ["Blockly", "React", "Jest"]
 relativePath: tech-book-fest7.png
 ---
 
-9月22日の技術書典に出すため、技術系同人誌を書きました。
+9 月 22 日の技術書典に出すため、技術系同人誌を書きました。
 サークルページは<a href="https://techbookfest.org/event/tbf07/circle/5653415447232512" target="_blank">こちら</a>です。
 
-最近はBlocklyばっかり触って理解が進んできた。
-Blocklyのブロックがシンプルだったので、近頃のリッチな感じとマッチしにくいなぁと思ってた。
-そこで、coreをいじったりしてみた。
-forkしていじってみたプルリク→https://github.com/kyoncy/node-blockly/pull/1
+最近は Blockly ばっかり触って理解が進んできた。
+Blockly のブロックがシンプルだったので、近頃のリッチな感じとマッチしにくいなぁと思ってた。
+そこで、core をいじったりしてみた。
+fork していじってみたプルリク →https://github.com/kyoncy/node-blockly/pull/1
 
-Blocklyのブロックはこんな感じ。
+Blockly のブロックはこんな感じ。
 
 ![Blockly](https://i.imgur.com/tgwShwa.jpg)
 
-それをMakecodeで使われているブロックに置き換えてみた。
+それを Makecode で使われているブロックに置き換えてみた。
 
 ![pxt-blockly](https://i.imgur.com/95bGEQ0.jpg)
 
