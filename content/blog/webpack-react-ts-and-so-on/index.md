@@ -14,6 +14,7 @@ xx-loader や config ファイルをどう設定するかについて示して�
 ESLint や stylelint についても触れたいのですが、 webpack と関係ないので気が向けば書きます。
 
 ## TypeScript, React の設定
+
 必要なパッケージのインストール
 
 ```shell
@@ -38,9 +39,7 @@ tsconfig.json の設定
     "moduleResolution": "node",
     "lib": ["es2019", "dom"]
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
 ```
 
@@ -66,11 +65,11 @@ module.exports = {
 }
 ```
 
-これにて、tsx ファイルを扱えるようになり、Reactアプリケーション作成の一歩を踏み出しました。
+これにて、tsx ファイルを扱えるようになり、React アプリケーション作成の一歩を踏み出しました。
 しかし、このままでは CSS や画像を扱えない状態です。
 
-
 ## SCSS Modules の設定
+
 styled-components vs CSS Modules といった議論はあるのですが、個人的にスタイルファイルは別で置いておきたいので CSS Modules が好きです。
 
 まずはライブラリのインストールから
@@ -118,10 +117,10 @@ module.exports = {
 ```
 
 これで SCSS Modules の設定が完了しました。
-`typed-scss-modules` は CLIツールなのですが、これを使えば .scss ファイルから型を生成してくれるので便利です。
-
+`typed-scss-modules` は CLI ツールなのですが、これを使えば .scss ファイルから型を生成してくれるので便利です。
 
 ## 画像を読み込むための file-loader の設定
+
 最後に画像を表示するために file-loader の設定をしていきます。
 file-loader をいんすとーるします。
 
@@ -194,9 +193,10 @@ end
 これで画像も読み込まれるようになります。
 
 ## 最後に
+
 ただの備忘録みたいになっちゃいました(ほとんどそれが目的です)
 
-ESLint や Prettier, stylelint などの設定も行い、CIの設定をしたのですが快適な開発環境になりました。
+ESLint や Prettier, stylelint などの設定も行い、CI の設定をしたのですが快適な開発環境になりました。
 
 最近は monaco-editor を触ってみてエディタのカスタマイズ方法について調べています。
 副業を始めたいけど声掛け待っても...となってきたので探してます。

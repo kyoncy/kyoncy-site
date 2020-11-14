@@ -6,12 +6,12 @@ tags: ["book", "tech"]
 relativePath: 2019-read-books.png
 ---
 
-2019年(4月から12月まで)に読んだ本を備忘録として置いておきます。
-10月から本を読む機会が増えているので、4半期ペースでまとめていくのも良さそう。
+2019 年(4 月から 12 月まで)に読んだ本を備忘録として置いておきます。
+10 月から本を読む機会が増えているので、4 半期ペースでまとめていくのも良さそう。
 
-## 入社してWebに親しむために読んだ
+## 入社して Web に親しむために読んだ
 
-Webを支える技術
+Web を支える技術
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/39cFpRK" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F39cFpRK&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
@@ -19,14 +19,13 @@ Webを支える技術
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2sVmqKZ" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2sVmqKZ&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
-
-超速! Webページ速度改善ガイド
+超速! Web ページ速度改善ガイド
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2ES4bZw" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2ES4bZw&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
 ## エンジニアとして組織で働く系
 
-EMやPdMに興味を持ち、社内でソフトウェア開発をどう進めていくのが良いかを考えていたので読みました。
+EM や PdM に興味を持ち、社内でソフトウェア開発をどう進めていくのが良いかを考えていたので読みました。
 
 エンジニアリング組織論への招待
 
@@ -52,7 +51,6 @@ EMやPdMに興味を持ち、社内でソフトウェア開発をどう進めて
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2ZkDmqo" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2ZkDmqo&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
-
 ## ビジネス的な感じ
 
 ソフトウェア・ファースト
@@ -63,7 +61,7 @@ OKR
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2ZlxIEo" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2ZlxIEo&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
-5Gビジネス
+5G ビジネス
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2shMZtH" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2shMZtH&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
@@ -73,7 +71,7 @@ OKR
 
 ## 考え方を変える系の本
 
-20歳のときに知っておきたかったこと
+20 歳のときに知っておきたかったこと
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/39czBro" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F39czBro&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
@@ -91,7 +89,7 @@ Think clearly
 
 ## 技術書
 
-実践TypeScript
+実践 TypeScript
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2VgtpZ4" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2VgtpZ4&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small&omit_script=1"></a></div></div>
 
@@ -103,7 +101,7 @@ Think clearly
 
 <div style="margin-bottom: 18px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/2MoB4Bu" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F2MoB4Bu&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
-りあクト！ TypeScriptで極める現場のReact開発
+りあクト！ TypeScript で極める現場の React 開発
 
 <div style="margin-bottom: 45px;"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://ec.toranoana.jp/tora_r/ec/item/040030721458/" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fec.toranoana.jp%2Ftora_r%2Fec%2Fitem%2F040030721458%2F&key=abafb5735fb0f92785d3ce5512b6fa13&iframe=card-small&omit_script=1"></a></div></div>
 
@@ -115,14 +113,13 @@ Think clearly
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://amzn.to/39c8bCg" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Famzn.to%2F39c8bCg&amp;key=abafb5735fb0f92785d3ce5512b6fa13&amp;iframe=card-small"></a></div></div>
 
-
 ## まとめ
 
 振り返ると、オライリーあまり読んでないなぁと反省。
-積読の棚に5冊くらい控えてるので冬休みと2020年の前半は技術書寄りにします。
+積読の棚に 5 冊くらい控えてるので冬休みと 2020 年の前半は技術書寄りにします。
 
-職場の中で正社員として働くエンジニアが自分とCTOの2人です。(パートタイムで働いてくださってる方もいます)
-ですが、アジャイル開発やEMに興味を持ったので、書店で必ず並んでいる本を早い段階で読めたのは良かったです。
+職場の中で正社員として働くエンジニアが自分と CTO の 2 人です。(パートタイムで働いてくださってる方もいます)
+ですが、アジャイル開発や EM に興味を持ったので、書店で必ず並んでいる本を早い段階で読めたのは良かったです。
 
-2019年はBlocklyの本を書いたりもしたので、2020年はもっと技術書を読んでアウトプットしていきたい。
-フロントエンドばかりの9ヶ月でしたが、バックエンド(今のところ Rails)も書くことになるので楽しみです。
+2019 年は Blockly の本を書いたりもしたので、2020 年はもっと技術書を読んでアウトプットしていきたい。
+フロントエンドばかりの 9 ヶ月でしたが、バックエンド(今のところ Rails)も書くことになるので楽しみです。
