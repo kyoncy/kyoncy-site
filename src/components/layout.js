@@ -63,7 +63,7 @@ class Layout extends React.Component {
         <footer>
           <div>
             <h4 style={{ paddingTop: '10px', marginBottom: '10px' }}>Githubの草情報</h4>
-            <img src="https://grass-graph.moshimo.works/images/kyoncy.png?background=none"></img>
+            <img src="https://grass-graph.moshimo.works/images/kyoncy.png?background=none" alt="Githubの草情報"></img>
           </div>
           <div>
             © {new Date().getFullYear()} kyoncy
