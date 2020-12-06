@@ -28,7 +28,7 @@ relativePath: atomic-design.png
 
 以下のように `Atoms`, `Molecules`, `Orfganisms` でディレクトリをきっています。
 
-```sh
+```shell
 ❯ tree src/components
 src/components
 ├── Atoms

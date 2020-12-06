@@ -57,12 +57,12 @@ const Bio = () => {
         />
       </Link>
       <p>
-        社会人2年目の {author}🐧です。<a href={`https://code.or.jp`} target={'_blank'}>みんなのコード</a> で働いてます。
-        <a href={`https://twitter.com/${social.twitter}`} target={'_blank'}>Twitter</a>
+        社会人2年目の {author}🐧です。<a href={`https://code.or.jp`} target={'_blank'} rel="noreferrer">みんなのコード</a> で働いてます。
+        <a href={`https://twitter.com/${social.twitter}`} target={'_blank'} rel="noreferrer">Twitter</a>
         {`, `}
-        <a href={`https://facebook.com/${social.facebook}`} target={'_blank'}>Facebook</a>
+        <a href={`https://facebook.com/${social.facebook}`} target={'_blank'} rel="noreferrer">Facebook</a>
         やってます。React, TypeScript 書いてます。土日は開発したり読書したり都内を散歩してます。ボドゲがしたい。
-        経歴は <a href={`https://www.wantedly.com/users/83876160`} target={'_blank'}>Wantedly</a> に記載してます。
+        経歴は <a href={`https://www.wantedly.com/users/83876160`} target={'_blank'} rel="noreferrer">Wantedly</a> に記載してます。
         ぼちぼち転職活動かなぁとか考えたりしてます。
       </p>
     </div>

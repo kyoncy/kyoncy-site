@@ -46,7 +46,7 @@ OGP 画像の実装は少し工夫が必要だったので gatsby-starter-blog �
 いざデプロイするとなったとき、[Gatsby Docs](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/) に Github Pages へデプロイする方法を書いていたので参考にしました。
 Github 上でドメインなどの設定をしましたがよく理解できず、master にマージされた後
 
-```sh
+```shell
 $ gh-pages -d public -b master
 ```
 

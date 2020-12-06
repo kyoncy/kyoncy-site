@@ -12,7 +12,7 @@ relativePath: npm-blockly.png
 
 これに伴い、以下のコマンドでパッケージの追加が可能になりました。
 
-```sh
+```shell
 $ npm install blockly
 ```
 
