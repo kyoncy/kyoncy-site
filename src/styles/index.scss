@@ -27,13 +27,20 @@ $breakpoint-down: (
 }
 
 .blogPost {
-  display: flex;
+  @include mq-up(md) {
+    display: flex;
+  }
 
   img {
     @include mq-up(md) {
       width: 300px;
       height: 159px;
       margin-right: 10px;
+    }
+
+    @include mq-down(md) {
+      width: 100%;
+      height: auto;
     }
   }
 
