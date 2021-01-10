@@ -44,3 +44,13 @@ $breakpoint-down: (
   background-color: whitesmoke;
   border-radius: 30px;
 }
+
+blockquote {
+  padding-left: 1rem;
+  margin-left: 0;
+  border-left: .25em solid lightgray;
+
+  p {
+    margin-bottom: 8px;
+  }
+}
