@@ -63,7 +63,6 @@ const Bio = () => {
         <a href={`https://facebook.com/${social.facebook}`} target={'_blank'} rel="noreferrer">Facebook</a>
         やってます。React, TypeScript 書いてます。土日は開発したり読書したり都内を散歩してます。ボドゲがしたい。
         経歴は <a href={`https://www.wantedly.com/users/83876160`} target={'_blank'} rel="noreferrer">Wantedly</a> に記載してます。
-        ぼちぼち転職活動かなぁとか考えたりしてます。
       </p>
     </div>
   )
