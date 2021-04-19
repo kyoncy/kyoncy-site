@@ -3,7 +3,6 @@ title: Zero config で始めるのか Webpack をゴリゴリ書くのかのポ�
 date: "2020-11-14 12:00:00"
 description: create-(next|react)-app で zero config で始めるのと webpack ですべて設定を記述するのはどちらが良いのか疑問に思ったので残しておく。どちらじゃないとダメってことを言いたいわけではない
 tags: ["Create React App", "Create Next App", "Webpack"]
-relativePath: zero-config-start.png
 ---
 
 ※ ポエムです

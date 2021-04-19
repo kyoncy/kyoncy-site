@@ -3,7 +3,6 @@ title: Atomic Design に入門したがAtomとMoleculeの違いがわからな�
 date: "2020-11-14 11:00:00"
 description: 個人開発で Atomic Design を採用してコンポーネントを作ってるが、これはAtomが良いのか？Moleculeが良いのか？(はたまたOrganism？)となってるのでいろんな記事読んだりして自分が思ってることを書き出す
 tags: ["Atomic Design"]
-relativePath: atomic-design.png
 ---
 
 この記事を書こうと思ったのは、[Atomic Design における Atom, Molecule, Organism の見極め方](https://a-suenami.hatenablog.com/entry/2019/04/29/173415) に「なるほど〜」と思わされたからです。
