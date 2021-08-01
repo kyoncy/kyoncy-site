@@ -36,7 +36,7 @@ WordPress からの移行とはいえ、デザインがシンプルすぎた �
 - 記事ごとのタグの導入
 - 記事の OGP 画像を設定（設定した画像がなければデフォルト画像）
 - コードの Syntax Highlight 機能の追加
-- Github の草情報の追加 → http://grass-graph.moshimo.works/
+- Github の草情報の追加 → https://github-contributions-api.deno.dev/kyoncy.svg
 
 とりあえず最低限の機能を実装しました。
 OGP 画像の実装は少し工夫が必要だったので gatsby-starter-blog から始めるのもアリですね。

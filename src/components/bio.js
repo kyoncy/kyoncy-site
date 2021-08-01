@@ -14,7 +14,7 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+      avatar: file(absolutePath: { regex: "/penguin.png/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
@@ -50,6 +50,7 @@ const Bio = () => {
             marginBottom: 0,
             minWidth: 50,
             borderRadius: `100%`,
+            border: "1px solid lightgray"
           }}
           imgStyle={{
             borderRadius: `50%`,
@@ -57,11 +58,11 @@ const Bio = () => {
         />
       </Link>
       <p>
-        社会人3年目の {author}🐧です。
+        NPO法人みんなのコード → HiTTO株式会社(現職)でフロントエンド担当しています {author}🐧です。<br />
         <a href={`https://twitter.com/${social.twitter}`} target={'_blank'} rel="noreferrer">Twitter</a>
         {`, `}
-        <a href={`https://facebook.com/${social.facebook}`} target={'_blank'} rel="noreferrer">Facebook</a>
-        やってます。React, TypeScript 書いてます。土日は開発したり読書したり都内を散歩してます。ボドゲがしたい。
+        <a href={`https://zenn.dev/kyoncy`} target={'_blank'} rel="noreferrer">Zenn</a>
+        やってます。React, TypeScript 書いてます。土日は開発したり読書したり都内を散歩してます。ボドゲにハマってるので欲が高まってます。
       </p>
     </div>
   )
