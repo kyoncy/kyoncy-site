@@ -62,7 +62,7 @@ const Bio = () => {
         <a href={`https://twitter.com/${social.twitter}`} target={'_blank'} rel="noreferrer">Twitter</a>
         {`, `}
         <a href={`https://zenn.dev/kyoncy`} target={'_blank'} rel="noreferrer">Zenn</a>
-        やってます。React, TypeScript 書いてます。土日は開発したり読書したり都内を散歩してます。ボドゲにハマってるので欲が高まってます。
+        やってます。React, TypeScript, GraphQL 書いてます。土日は開発したり読書したり都内を散歩してます。ボドゲにハマってるので欲が高まってます。
       </p>
     </div>
   )
